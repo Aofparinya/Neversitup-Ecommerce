@@ -20,7 +20,7 @@ export class OrderController {
     }
 
     // view order detail 
-    @Get('order/id')
+    @Get('view/id')
     viewOrderDetail(@Param() id:number) {
         return this.orderService.viewOrderDetail(id);
     }
